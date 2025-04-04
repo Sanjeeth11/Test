@@ -8,6 +8,7 @@ public class Department {
 	private int deptStrength;
 	private String deptHead;
 	
+
 	public int getDeptId() {
 		return deptId;
 	}
@@ -33,5 +34,6 @@ public class Department {
 		this.deptHead = deptHead;
 	}
 	
+
 	
 }

@@ -1,7 +1,6 @@
 package com.example.sbpro1.sanjeeth;
 
 public class College {
-
 	
 	private String collegeName;
 	private long collegeCode;
@@ -14,6 +13,7 @@ public class College {
 	public void setCollegeAddress(String collegeAddress) {
 		this.collegeAddress = collegeAddress;
 	}
+
 
 	public String getCollegeName() {
 		return collegeName;
