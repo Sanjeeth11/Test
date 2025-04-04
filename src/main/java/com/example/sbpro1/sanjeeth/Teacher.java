@@ -4,8 +4,10 @@ public class Teacher {
 
 	private int teacherId;
 	private String teacherName;
-	private String branch;
 	private int teacherAge;
+	
+	private String location;
+	private long mobileNo;
 
 	public int getTeacherId() {
 		return teacherId;
@@ -23,14 +25,7 @@ public class Teacher {
 		this.teacherName = teacherName;
 	}
 
-	public String getBranch() {
-		return branch;
-	}
-
-	public void setBranch(String branch) {
-		this.branch = branch;
-	}
-
+	
 	public int getTeacherAge() {
 		return teacherAge;
 	}

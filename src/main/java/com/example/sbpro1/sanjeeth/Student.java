@@ -3,8 +3,11 @@ package com.example.sbpro1.sanjeeth;
 public class Student {
 
 	private int stuId;
-	private String stuName;
+	
 	private int stuAge;
+	private int empID;
+	private String empName;
+	private int empAge;
 
 	public int getStuId() {
 		return stuId;
@@ -14,14 +17,7 @@ public class Student {
 		this.stuId = stuId;
 	}
 
-	public String getStuName() {
-		return stuName;
-	}
-
-	public void setStuName(String stuName) {
-		this.stuName = stuName;
-	}
-
+	
 	public int getStuAge() {
 		return stuAge;
 	}
