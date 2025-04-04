@@ -4,7 +4,11 @@ public class Department {
 	
 	private int deptId;
 	private String deptName;
-	private String deptLoc;
+
+	private int deptStrength;
+	private String deptHead;
+	
+
 	public int getDeptId() {
 		return deptId;
 	}
@@ -17,12 +21,19 @@ public class Department {
 	public void setDeptName(String deptName) {
 		this.deptName = deptName;
 	}
-	public String getDeptLoc() {
-		return deptLoc;
+	public int getDeptStrength() {
+		return deptStrength;
 	}
-	public void setDeptLoc(String deptLoc) {
-		this.deptLoc = deptLoc;
+	public void setDeptStrength(int deptStrength) {
+		this.deptStrength = deptStrength;
 	}
+	public String getDeptHead() {
+		return deptHead;
+	}
+	public void setDeptHead(String deptHead) {
+		this.deptHead = deptHead;
+	}
+	
 
 	
 }
