@@ -9,6 +9,7 @@ public class Student {
 	private String empName;
 	private int empAge;
 
+
 	public int getStuId() {
 		return stuId;
 	}
@@ -17,7 +18,6 @@ public class Student {
 		this.stuId = stuId;
 	}
 
-	
 	public int getStuAge() {
 		return stuAge;
 	}
