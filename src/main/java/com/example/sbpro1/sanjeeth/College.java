@@ -2,15 +2,19 @@ package com.example.sbpro1.sanjeeth;
 
 public class College {
 
-	private int collegeId;
+	
 	private String collegeName;
 	private long collegeCode;
-	public int getCollegeId() {
-		return collegeId;
+	private String collegeAddress;
+	
+	
+	public String getCollegeAddress() {
+		return collegeAddress;
 	}
-	public void setCollegeId(int collegeId) {
-		this.collegeId = collegeId;
+	public void setCollegeAddress(String collegeAddress) {
+		this.collegeAddress = collegeAddress;
 	}
+
 	public String getCollegeName() {
 		return collegeName;
 	}
